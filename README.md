@@ -10,7 +10,6 @@ I design and build production systems across backend, mobile and data, and I lea
 
 - **Founder and Head of Engineering, Delasoft.** Architect and lead engineer of GariHub, a multi-tenant ERP for workshops, fleets and retail businesses. It covers job cards, inventory, accounting, payroll, POS and lending. Django, PostgreSQL, Celery, Next.js, running in production for paying customers.
 - **Senior Software Engineer, Mobile.** Android in Kotlin and Java for a fintech and energy business: payments, telemetry, offline-first flows.
-- **MSc IT, University of Kigali.** Focus on big data analytics with Spark and Hadoop.
 
 ### What I work on
 
@@ -49,6 +48,8 @@ I design and build production systems across backend, mobile and data, and I lea
 - Prefer boring, well-understood technology. Add moving parts only when the numbers call for them.
 - Every change ships behind tests and a reversible deploy.
 - Write things down: design notes, runbooks, post-incident reviews.
+
+**Education:** MSc Information Technology, University of Kigali (in progress, big data analytics) · BSc Business Information Technology, University of Rwanda
 
 <p>
   <img height="160" src="https://github-readme-stats.vercel.app/api?username=mugishajc&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&hide_title=true" alt="GitHub stats">
