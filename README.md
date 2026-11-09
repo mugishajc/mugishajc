@@ -1,6 +1,6 @@
 ## Mugisha Jean Claude
 
-**Principal Engineer · Head of Software Engineering · Kigali, Rwanda**
+**Principal Engineer · Senior Software Engineer · Head of Software Engineering · Kigali, Rwanda**
 
 [LinkedIn](https://www.linkedin.com/in/mugisha-jean-claude)
 
