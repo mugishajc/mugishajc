@@ -6,6 +6,9 @@ Backend and infrastructure first: Python, Go, Rust, Java, Kotlin, TypeScript. Sp
 
 Most of my work is private. Public pieces:
 
+**Open source**
+- [open-engineering-playbook](https://github.com/mugishajc/open-engineering-playbook): an open engineering playbook and template kit for any organisation, from a solo engineer to a government ministry. Fourteen areas from technical strategy and transitions to delivery, reliability, security, data, AI, platform and people, each at three levels, with GitHub and GitLab templates, a maturity self-assessment and a control mapping to ISO 27001, SOC 2, NIST SSDF, SLSA, the EU CRA and the EU AI Act
+
 **Infrastructure and DevOps**
 - [fleetpulse](https://github.com/mugishajc/fleetpulse): event-driven fleet operations platform, 4 Go microservices on NATS, geofencing with haversine, k6 load tests, Grafana dashboard, Kubernetes with Kustomize overlays, Helm chart, Argo CD GitOps
 - [basecamp-aws](https://github.com/mugishajc/basecamp-aws): Terraform landing zone modules for AWS: 3-AZ VPC with flow logs, customer-managed KMS, encrypted S3 log bucket with lifecycle, IAM baseline, with fmt, validate, tflint and checkov in CI
