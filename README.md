@@ -4,7 +4,7 @@
 
 [LinkedIn](https://www.linkedin.com/in/mugisha-jean-claude)
 
-I design and build production systems across backend, mobile and data, and I lead the engineering work around them: architecture, delivery, security and on-call. I have been shipping software since 2018, mostly for businesses in East Africa that run on mobile money, USSD and unreliable networks.
+I design and build production systems across backend, mobile and data, and I lead the engineering work around them: architecture, delivery, security and on-call. I have been shipping software since 2017, mostly for businesses in East Africa that run on mobile money, USSD and unreliable networks.
 
 ### Now
 
