@@ -22,6 +22,8 @@ Most of my work is private. Public pieces:
 - [flask-url-monitor](https://github.com/mugishajc/flask-url-monitor): uptime monitor on Flask and APScheduler with alert hooks
 - [php-mvc-framework-from-scratch](https://github.com/mugishajc/php-mvc-framework-from-scratch): small MVC framework in PHP 8.2 with router, DI, CSRF and a task board demo
 - [php-secure-auth-system](https://github.com/mugishajc/php-secure-auth-system): Argon2id, login throttling, session hardening and hashed email tokens
+- [dotnet-tasks-api](https://github.com/mugishajc/dotnet-tasks-api): ASP.NET Core 8 Web API for projects and tasks, JWT auth, EF Core, xUnit integration tests
+- [vbnet-rwanda-payroll](https://github.com/mugishajc/vbnet-rwanda-payroll): VB.NET library computing Rwandan monthly payroll (PAYE across RRA bands, RSSB, CBHI, employer cost)
 
 **Data**
 - [calibratorrr](https://github.com/mugishajc/calibratorrr): court case API with JWT auth and a Spark analytics lab, Spring Boot
