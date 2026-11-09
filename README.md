@@ -1,6 +1,6 @@
 ## Mugisha Jean Claude
 
-**Software Architect · Engineering Leader · Kigali, Rwanda**
+**Principal Engineer · Head of Software Engineering · Kigali, Rwanda**
 
 [LinkedIn](https://www.linkedin.com/in/mugisha-jean-claude)
 
@@ -8,8 +8,10 @@ I design and build production systems across backend, mobile and data, and I lea
 
 ### Now
 
-- **Founder and Head of Engineering, Delasoft.** Architect and lead engineer of GariHub, a multi-tenant ERP for workshops, fleets and retail businesses. It covers job cards, inventory, accounting, payroll, POS and lending. Django, PostgreSQL, Celery, Next.js, running in production for paying customers.
-- **Senior Software Engineer, Mobile.** Android in Kotlin and Java for a fintech and energy business: payments, telemetry, offline-first flows.
+- **Principal Engineer and Head of Software Engineering, GariHub (Delasoft).** I own the architecture and engineering direction of GariHub, a multi-tenant ERP for workshops, fleets and retail businesses: job cards, inventory, accounting, payroll, POS and lending. Django, PostgreSQL, Celery, Next.js, running in production for paying customers.
+- **Senior Mobile Engineer.** Android in Kotlin and Java for a fintech and energy business: payments, telemetry, offline-first flows.
+
+Earlier roles: Tech Lead, Senior Software Engineer.
 
 ### What I work on
 
