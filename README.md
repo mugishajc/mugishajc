@@ -7,7 +7,8 @@ Backend and infrastructure first: Python, Go, Rust, Java, Kotlin, TypeScript. Sp
 Most of my work is private. Public pieces:
 
 **Infrastructure and DevOps**
-- [fleetpulse](https://github.com/mugishajc/fleetpulse): event-driven fleet monitoring, Go microservices on NATS, Kubernetes with Kustomize overlays, Helm chart and Argo CD applications
+- [fleetpulse](https://github.com/mugishajc/fleetpulse): event-driven fleet operations platform: 4 Go microservices on NATS, geofencing with haversine, k6 load tests, Grafana dashboard, Kubernetes with Kustomize overlays, Helm chart, Argo CD GitOps
+- [basecamp-aws](https://github.com/mugishajc/basecamp-aws): Terraform landing zone modules for AWS: 3-AZ VPC with flow logs, customer-managed KMS, encrypted S3 log bucket with lifecycle, IAM baseline, with fmt + validate + tflint + checkov in CI
 - [helmscape](https://github.com/mugishajc/helmscape): two FastAPI microservices to Kubernetes with Helm charts, Argo CD app-of-apps and GitHub Actions to GHCR
 
 **Backend**
