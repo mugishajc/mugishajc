@@ -7,8 +7,10 @@ Backend and infrastructure first: Python, Go, Rust, Java, Kotlin, TypeScript. Sp
 Most of my work is private. Public pieces:
 
 **Infrastructure and DevOps**
-- [fleetpulse](https://github.com/mugishajc/fleetpulse): event-driven fleet operations platform: 4 Go microservices on NATS, geofencing with haversine, k6 load tests, Grafana dashboard, Kubernetes with Kustomize overlays, Helm chart, Argo CD GitOps
-- [basecamp-aws](https://github.com/mugishajc/basecamp-aws): Terraform landing zone modules for AWS: 3-AZ VPC with flow logs, customer-managed KMS, encrypted S3 log bucket with lifecycle, IAM baseline, with fmt + validate + tflint + checkov in CI
+- [fleetpulse](https://github.com/mugishajc/fleetpulse): event-driven fleet operations platform, 4 Go microservices on NATS, geofencing with haversine, k6 load tests, Grafana dashboard, Kubernetes with Kustomize overlays, Helm chart, Argo CD GitOps
+- [basecamp-aws](https://github.com/mugishajc/basecamp-aws): Terraform landing zone modules for AWS: 3-AZ VPC with flow logs, customer-managed KMS, encrypted S3 log bucket with lifecycle, IAM baseline, with fmt, validate, tflint and checkov in CI
+- [pipebench](https://github.com/mugishajc/pipebench): reusable GitHub Actions: Buildx + Cosign keyless signing, test-matrix with coverage floor, Terraform plan-apply gated by OIDC
+- [obsidian](https://github.com/mugishajc/obsidian): opinionated observability stack for Kubernetes: Prometheus, Loki, Tempo and OpenTelemetry Collector in one Helm chart, with SLO burn-rate alerts and dashboards
 - [helmscape](https://github.com/mugishajc/helmscape): two FastAPI microservices to Kubernetes with Helm charts, Argo CD app-of-apps and GitHub Actions to GHCR
 
 **Backend**
