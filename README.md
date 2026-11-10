@@ -1,54 +1,45 @@
 ### Mugisha Jean Claude
 
-I build production systems: ERPs, fleet platforms, payment integrations, mobile apps. Based in Kigali, shipping globally.
+I build production backend systems, cloud infrastructure and mobile apps. Kigali, Rwanda.
 
-Go, Python, Kotlin, Java, Rust, TypeScript. Kubernetes in production. I care about things that work under load, pass audits and survive the on-call engineer at 3 AM.
+Go, Python, Java, Kotlin, Rust, TypeScript. Kubernetes, Helm, Argo CD and GitHub Actions in production. I care about things that work under load, pass audits and survive the on-call engineer at 3 AM.
 
----
-
-#### Featured
-
-**[Open Engineering Playbook](https://github.com/mugishajc/open-engineering-playbook)** - engineering playbook and template kit for any organisation. 111 practice pages across 16 areas, each at three levels. GitHub and GitLab templates, maturity self-assessment, regional compliance guides, control mapping to ISO 27001, SOC 2, NIST SSDF, SLSA, EU CRA and the EU AI Act.
+Most of my work ships in private repos. These are the public pieces.
 
 ---
 
-#### Infrastructure
+**[Open Engineering Playbook](https://github.com/mugishajc/open-engineering-playbook)** - how to build and run software well, written so any organisation can adopt it. 111 practice pages in 16 areas, three maturity levels each. Templates for GitHub, GitLab and Kubernetes. Self-assessment with 112 questions. Regional compliance guides for 8 jurisdictions. Control mapping to ISO 27001, SOC 2, NIST SSDF, SLSA, EU CRA and the EU AI Act.
 
-| | |
+---
+
+#### Infrastructure and platform
+
+| Project | What it does |
 |---|---|
-| [fleetpulse](https://github.com/mugishajc/fleetpulse) | Event-driven fleet platform: 4 Go microservices, NATS, geofencing, k6 load tests, Kubernetes + Helm + Argo CD |
-| [basecamp-aws](https://github.com/mugishajc/basecamp-aws) | Terraform landing zone for AWS: 3-AZ VPC, KMS, encrypted logging, IAM baseline, tflint + checkov in CI |
-| [obsidian](https://github.com/mugishajc/obsidian) | Observability stack for Kubernetes: Prometheus, Loki, Tempo, OpenTelemetry Collector, SLO burn-rate alerts |
-| [helmscape](https://github.com/mugishajc/helmscape) | 3 FastAPI services on Kubernetes with Helm, Argo CD, NetworkPolicies, HPA and Prometheus monitoring |
-| [pipebench](https://github.com/mugishajc/pipebench) | Reusable GitHub Actions: Buildx + Cosign signing, test-matrix with coverage floor, Terraform plan-apply |
+| [fleetpulse](https://github.com/mugishajc/fleetpulse) | 4 Go microservices on NATS with geofencing, k6 load tests, Kubernetes + Helm + Argo CD |
+| [basecamp-aws](https://github.com/mugishajc/basecamp-aws) | Terraform landing zone for AWS: 3-AZ VPC, KMS, S3 logging, IAM baseline, checkov in CI |
+| [obsidian](https://github.com/mugishajc/obsidian) | Kubernetes observability: Prometheus, Loki, Tempo, OpenTelemetry Collector, SLO burn-rate alerts |
+| [helmscape](https://github.com/mugishajc/helmscape) | 3 services on Kubernetes with Helm, Argo CD, NetworkPolicies, HPA and ServiceMonitors |
+| [pipebench](https://github.com/mugishajc/pipebench) | Reusable GitHub Actions: Buildx + Cosign signing, test-matrix with coverage floor, Terraform OIDC |
 
 #### Backend
 
-| | |
+| Project | What it does |
 |---|---|
-| [orderforge](https://github.com/mugishajc/orderforge) | Go order management: clean architecture, PostgreSQL, Redis, NATS events, OpenTelemetry, 26 tests |
-| [tollgate](https://github.com/mugishajc/tollgate) | Concurrent token-bucket rate limiter for Go with net/http middleware |
-| [tally](https://github.com/mugishajc/tally) | Parallel word-count CLI in Rust: streaming I/O, Rayon across files |
-| [taskforge](https://github.com/mugishajc/taskforge) | ASP.NET Core 8 project API: JWT, EF Core, comments, filtering, 17 integration tests |
-| [vaultcore](https://github.com/mugishajc/vaultcore) | AES-GCM, PBKDF2, HMAC, RSA-PSS on plain Java JCA |
-| [keygate](https://github.com/mugishajc/keygate) | JWT access + refresh tokens, role-based access on Spring Security 6 |
-
-#### Data
-
-| | |
-|---|---|
-| [swiftstream](https://github.com/mugishajc/swiftstream) | Python event pipeline: Kafka, pluggable transforms, PostgreSQL + S3 sinks, Prometheus metrics, 43 tests |
-| [calibratorrr](https://github.com/mugishajc/calibratorrr) | Court case management API with Spark analytics, Spring Boot |
-| [who-health-etl-pipeline](https://github.com/mugishajc/who-health-etl-pipeline) | WHO health data to PostgreSQL ETL with validation and checkpointing |
+| [orderforge](https://github.com/mugishajc/orderforge) | Go order service: clean architecture, PostgreSQL, Redis, NATS events, OpenTelemetry, 26 tests |
+| [swiftstream](https://github.com/mugishajc/swiftstream) | Python event pipeline: Kafka consumer, pluggable transforms, PostgreSQL + S3 sinks, 43 tests |
+| [tollgate](https://github.com/mugishajc/tollgate) | Token-bucket rate limiter for Go with net/http middleware |
+| [tally](https://github.com/mugishajc/tally) | Parallel word-count CLI in Rust with streaming I/O and Rayon |
+| [taskforge](https://github.com/mugishajc/taskforge) | ASP.NET Core 8 project API: JWT, EF Core, task assignment, comments, 17 integration tests |
+| [vaultcore](https://github.com/mugishajc/vaultcore) | AES-GCM, PBKDF2, HMAC, RSA-PSS on plain Java 21 JCA |
 
 #### Mobile
 
-| | |
+| Project | What it does |
 |---|---|
-| [flow-kmm](https://github.com/mugishajc/flow-kmm) | Kotlin Multiplatform habit tracker: shared domain, SQLDelight, Ktor, Compose, 18 tests |
+| [flow-kmm](https://github.com/mugishajc/flow-kmm) | Kotlin Multiplatform habit tracker: shared domain, SQLDelight, Ktor, Jetpack Compose, 18 tests |
 | [skycast](https://github.com/mugishajc/skycast) | Android weather app in Kotlin + Jetpack Compose with Open-Meteo |
-| [jotdown](https://github.com/mugishajc/jotdown) | Offline Android notes in Java: Room, MVVM, Material 3 |
 
 ---
 
-Most of my work is in private repos. [LinkedIn](https://www.linkedin.com/in/mugisha-jean-claude)
+[LinkedIn](https://www.linkedin.com/in/mugisha-jean-claude)
